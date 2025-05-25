@@ -13,8 +13,9 @@ class PredefinedItem(BaseModel):
 
 class HistoryItem(BaseModel):
     name: str
-    question: str
-    code: str
+    input: str
+    output: str
+    details: str
 
 class TaskItem(BaseModel):
     name: str
